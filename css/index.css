@@ -1,0 +1,287 @@
+/* import fonts */
+@font-face {
+  font-family: Maison-Regular;
+  src: url('../fonts/Maison-Regular.woff');
+}
+
+@font-face {
+  font-family: Maison-Bold;
+  src: url('../fonts/Maison-Bold.woff');
+}
+
+body {
+  font-family: Maison-Regular;
+  background: #1f1f1f;
+}
+
+/* Mailchimp form style */
+#mce-EMAIL {
+  width: 50% !important;
+  margin-right: 5px !important;
+}
+#mc_embed_signup {
+  background: #1f1f1f;
+  width: 100% !important;
+  max-width: 300px;
+  /* display: flex !important; */
+}
+#mc_embed_signup_scroll {
+  display: flex !important;
+  justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  #mc_embed_signup_scroll {
+    flex-direction: column;
+    margin-right: 9%;
+  }
+  #mce-EMAIL {
+    width: 100% !important;
+    margin-right: 5px !important;
+  }
+}
+
+#mc-embedded-subscribe {
+  background-color: #000 !important;
+  color: #fff !important;
+  /* width: 40% !important; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.video-container {
+  width: 100%;
+  height: 57vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 57vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.video-container img {
+  width: 80%;
+  max-width: 600px;
+}
+
+.collections {
+  background: #000;
+  padding-bottom: 40px;
+}
+
+.collections-logo {
+  text-align: center;
+  color: #fff3a5;
+  padding-top: 38px;
+  margin-bottom: 20px;
+}
+
+.collections img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  font-family: Maison-Regular;
+}
+.collections a {
+  text-align: center;
+}
+
+.collections-logo img {
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+
+.collections-logo h2 {
+  font-family: Maison-Regular;
+  color: white;
+}
+
+.collections-photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.collections-photos div {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.collections-photos h4 {
+  color: white;
+  text-align: center;
+}
+
+.landing-contact {
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  color: #fff3a5;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.landing-contact a {
+  text-decoration: none;
+  color: white;
+  font-family: Maison-Regular;
+}
+
+.landing-contact .address {
+  display: flex;
+  flex-direction: column;
+  margin-left: 9%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.landing-contact .address p {
+  font-size: 1.2rem;
+  font-family: Maison-Regular;
+  /* margin: 0 5px; */
+  text-align: left;
+  color: #fff;
+}
+
+.landing-contact h2 {
+  font-size: 1.2rem;
+  font-family: Maison-Regular;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.contact-wrapper {
+  margin-right: 9%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.contact-wrapper .contact-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* margin-right: 7vw; */
+}
+/* .contact-wrapper {
+  font-family: Maison-Regular;
+  color: #fff;
+} */
+#thank-you {
+  font-size: 1.4rem;
+  color: #fff;
+  width: 100%;
+  text-align: end;
+}
+.landing-contact img {
+  /* margin-right: 7vw; */
+}
+
+/* style for contact page */
+
+.main-landing {
+  height: 57vh;
+  width: 100%;
+  background: url('../img/contact-main.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-landing img {
+  width: 80%;
+  max-width: 600px;
+}
+
+.contact-section {
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.contact-section h2 {
+  color: white;
+  font-family: Maison-Regular;
+  margin-bottom: 10px;
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+}
+
+.contact-section h5 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.bottom-section {
+  background: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-section a {
+  text-decoration: none;
+  color: white;
+  font-family: Maison-Regular;
+}
+
+.bottom-section h2 {
+  margin-right: 20px;
+  font-family: Maison-Regular;
+  font-size: 1.2rem;
+}
+
+.bottom-section .nav-logo-wrapper {
+  display: flex;
+}
+
+.bottom-section .address {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  color: #fff;
+  font-size: 1.25rem;
+  text-align: left;
+  font-family: Maison-Regular;
+}
+
+.bottom-section img {
+  padding-right: 7vw;
+  /* padding-top: 20px; */
+}
+
+@media (max-width: 768px) {
+  .main-landing {
+    background-position: right top;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-section h5 {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
