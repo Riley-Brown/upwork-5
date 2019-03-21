@@ -163,6 +163,7 @@ body {
   font-family: Maison-Regular;
   margin: 5px 0;
   text-transform: uppercase;
+  font-weight: 500;
 }
 
 .contact-wrapper {
